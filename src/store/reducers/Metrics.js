@@ -30,7 +30,8 @@ export default (state = initialState, action) => {
   switch (action.type) {
     case GET_TURBING_PRESSURE:
       return {
-        //
+        ...state,
+        val: action.payload
       };
     case ADD_TURBING_PRESSURE:
       return {
@@ -104,5 +105,7 @@ export default (state = initialState, action) => {
       return {
         //
       };
+    default:
+      return state;
   }
 };
