@@ -21,7 +21,7 @@ import {
 
 const initialState = {
   val: null,
-  current: null,
+  created: null,
   time: null,
   error: false
 };
@@ -43,7 +43,8 @@ export default (state = initialState, action) => {
       };
     case GET_FLARETEMP:
       return {
-        //
+        ...state,
+        val: action.payload
       };
     case ADD_FLARETEMP:
       return {
@@ -55,7 +56,8 @@ export default (state = initialState, action) => {
       };
     case GET_INJVALVEOPEN:
       return {
-        //
+        ...state,
+        val: action.payload
       };
     case ADD_INJVALVEOPEN:
       return {
@@ -67,7 +69,8 @@ export default (state = initialState, action) => {
       };
     case GET_OILTEMP:
       return {
-        //
+        ...state,
+        val: action.payload
       };
     case ADD_OILTEMP:
       return {
@@ -75,11 +78,13 @@ export default (state = initialState, action) => {
       };
     case DELETE_OILTEMP:
       return {
-        //
+        ...state,
+        val: action.payload
       };
     case GET_CASINGPRESSURE:
       return {
-        //
+        ...state,
+        val: action.payload
       };
     case ADD_CASINGPRESSURE:
       return {
@@ -91,17 +96,14 @@ export default (state = initialState, action) => {
       };
     case GET_WATERTEMP:
       return {
-        //
+        ...state,
+        val: action.payload
       };
     case ADD_WATERTEMP:
       return {
         //
       };
     case DELETE_WATERTEMP:
-      return {
-        //
-      };
-    case DELETE_OILTEMP:
       return {
         //
       };

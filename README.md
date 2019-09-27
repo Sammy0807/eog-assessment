@@ -21,3 +21,5 @@ Using our starter kit code, you should be able to get up to speed quickly.
 Live examples are linked in the drawer to the left.
 
 Thanks! And have fun!
+
+to run the server, "cd" into the server directory in the terminal and run npm run dev && npm run json:server
