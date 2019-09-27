@@ -19,10 +19,6 @@ import {
   DELETE_WATERTEMP
 } from "../actions";
 
-const getRandomInt = (min, max) => {
-  return Math.floor(Math.random() * (max - min + 1) + min);
-};
-
 const initialState = {
   val: null,
   current: null,
