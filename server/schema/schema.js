@@ -217,7 +217,7 @@ const mutation = new GraphQLObjectType({
       type: flartem,
       args: {
         val: { type: new GraphQLNonNull(GraphQLInt) },
-        created: { type: new GraphQLNonNull(GraphQLString) },
+        created: { type: GraphQLString },
         metricId: { type: GraphQLString }
       },
       resolve(parentValue, { val, created, metricId }) {
