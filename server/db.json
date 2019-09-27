@@ -1,0 +1,96 @@
+{
+  "tubingPressures": [
+    {
+      "id": "1",
+      "val": 506,
+      "created": "09/07/2019",
+      "metricId": "1"
+    },
+    {
+      "val": 600,
+      "created": "09/24/19",
+      "id": "jBnbzOh"
+    },
+    {
+      "val": 602,
+      "created": "09/24/18",
+      "id": "3ChF1SI"
+    },
+    {
+      "val": 603,
+      "created": "09/25/18",
+      "id": "SEUj-hg"
+    },
+    {
+      "val": 603,
+      "created": "09/25/18",
+      "id": "LkH7mga"
+    }
+  ],
+  "flareTemps": [
+    {
+      "id": "1",
+      "val": 506,
+      "created": "09/07/2019",
+      "metricId": "2"
+    }
+  ],
+  "injValveOpens": [
+    {
+      "id": "1",
+      "val": 506,
+      "created": "09/07/2019",
+      "metricId": "3"
+    }
+  ],
+  "oilTemps": [
+    {
+      "id": "1",
+      "val": 506,
+      "created": "09/07/2019",
+      "metricId": "4"
+    }
+  ],
+  "casingPressures": [
+    {
+      "id": "1",
+      "val": 506,
+      "created": "09/07/2019",
+      "metricId": "5"
+    }
+  ],
+  "waterTemps": [
+    {
+      "id": "1",
+      "val": 506,
+      "created": "09/07/2019",
+      "metricId": "6"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "1",
+      "name": "tubingPressures"
+    },
+    {
+      "id": "2",
+      "name": "flareTemps"
+    },
+    {
+      "id": "3",
+      "name": "injValveOpens"
+    },
+    {
+      "id": "4",
+      "name": "oilTemps"
+    },
+    {
+      "id": "5",
+      "name": "casingPressures"
+    },
+    {
+      "id": "6",
+      "name": "waterTemps"
+    }
+  ]
+}
